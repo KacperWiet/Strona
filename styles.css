@@ -1,7 +1,12 @@
 .navigation-tab{
+    margin: auto;
     display: flex;
     justify-content: space-between;
     padding: 30px;
+    background-color: #e9e9e9;
+    border-bottom: 8px solid #8a8a8a;
+    border-top: 8px solid #8a8a8a;
+    border-radius: 12px;
 }
 
 .nav-left-side{
@@ -33,20 +38,11 @@
 .nav-left-side a:hover {
     color: black;
 }
-
-.galery img{
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 8px;
-    width: 50%;
-    transition: width 0.5s;
+.right-site > .brand div{
+    margin: 10px;
+    font-weight: bold;
 }
 
-.galery > .photo img:hover{
-    width: 50.5%;
-}
 
 
 .nav-down > .center-text{
@@ -58,4 +54,41 @@
 
 .nav-down > .center-text > div{
     margin: 10px;
+}
+
+.nav-mid{
+    margin-top: 10px;
+    border-top: 8px solid #8a8a8a;
+    border-bottom: 8px solid #8a8a8a;
+    border-radius: 12px ;
+    background-color: #e9e9e9;
+}
+
+.nav-mid > .nav-photo > .galery > .photo1 img{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.nav-mid > .nav-photo > .galery > .photo1 div{
+    font-size:xx-large;
+    font-weight: bold;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-right: auto;
+    padding: 5px;
+    border-top: 6px solid black;
+    width: fit-content;
+
+}
+
+
+.nav-mid > .nav-photo > .galery {
+    padding-bottom:15px ;
+}
+
+.nav-mid > .nav-title{
+    text-align: center;
 }
