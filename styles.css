@@ -1,0 +1,35 @@
+.navigation-tab{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.nav-left-side{
+    display: flex;
+}
+
+.navigation-tab > .left-side > .nav-left-side > div{
+    margin: 10px;
+}
+
+.nav-left-side div{
+    height: auto;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-left-side a{
+    color: #8a8a8a;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-left-side div:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-left-side a:hover {
+    color: black;
+}
